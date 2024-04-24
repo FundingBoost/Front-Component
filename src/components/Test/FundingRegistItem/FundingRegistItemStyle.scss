@@ -1,0 +1,102 @@
+.FundingRegistItem {
+    height: 311px;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 822px;
+  
+    .sequenceGroup {
+        background-image: url(./image-25.png);
+        background-position: 50% 50%;
+        background-size: cover;
+        height: 311px;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 311px;
+      
+        .itemSequence {
+            background-color: #000000;
+            border-radius: 10px;
+            height: 37px;
+            left: 6px;
+            position: absolute;
+            top: 7px;
+            width: 37px;
+        }
+
+        .sequenceNumber {
+          color: #ffffff;
+          font-family: "Inter-Bold", Helvetica;
+          font-size: 17px;
+          font-weight: 700;
+          left: 21px;
+          letter-spacing: 0;
+          line-height: normal;
+          position: absolute;
+          top: 15px;
+        }
+    }
+      
+    .title {
+        color: #000000;
+        font-family: "Inter-Medium", Helvetica;
+        font-size: 30px;
+        font-weight: 500;
+        left: 334px;
+        letter-spacing: 0;
+        line-height: normal;
+        position: absolute;
+        top: 15px;
+        white-space: nowrap;
+    }
+      
+    .optionGroup {
+        background-color: #d9d9d9;
+        border-radius: 8px;
+        height: 22px;
+        left: 334px;
+        position: absolute;
+        top: 58px;
+        width: 43px;
+
+        .option {
+            color: #ffffff;
+            font-family: "Inter-Medium", Helvetica;
+            font-size: 15px;
+            font-weight: 500;
+            left: 8px;
+            letter-spacing: 0;
+            line-height: normal;
+            position: absolute;
+            top: 2px;
+            white-space: nowrap;
+        }
+    }
+      
+    .optionName {
+        color: #8c8c8c;
+        font-family: "Inter-Medium", Helvetica;
+        font-size: 13px;
+        font-weight: 500;
+        left: 386px;
+        letter-spacing: 0;
+        line-height: normal;
+        position: absolute;
+        top: 61px;
+    }
+      
+    .price {
+        color: #000000;
+        font-family: "Inter-Medium", Helvetica;
+        font-size: 30px;
+        font-weight: 500;
+        left: 692px;
+        letter-spacing: 0;
+        line-height: normal;
+        position: absolute;
+        top: 275px;
+        white-space: nowrap;
+    }
+}
+  

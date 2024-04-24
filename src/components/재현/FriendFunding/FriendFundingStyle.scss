@@ -1,0 +1,134 @@
+  .friendFunding {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #ebebeb;
+    border-radius: 10px;
+    height: 443px;
+    width: 646px;
+  }
+  
+  .friendInfo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    justify-content: flex-start;
+  }
+
+  .friendProfileImg{
+    width: 73px;
+    border-radius: 90px;
+    border-color: #000000;
+    border: 1px solid;
+    margin-right: 10px;
+  }
+
+  .friendNameAndTag {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .friendName {
+    color: #000000;
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  .friendTag {
+    font-size: 17px;
+    height: 29px;
+    color: #9c9c9c;
+    margin-left: 10px;
+  }
+
+  .dDay{
+    color: #000000;
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: auto;
+    margin-right: 50px;
+  }
+
+  .img{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    margin-left: 20px;
+  }
+
+  .fundingItem1{
+    width: 388px;
+    height: 240px;
+    margin-right: 10px;
+  }
+
+  .fundingItemSub {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .fundingItem2{
+    width: 174px;
+    height: 116px;
+    margin-bottom: 10px;
+  }
+
+  .fundingItem3{
+    width: 174px;
+    height: 116px;
+    margin-top: 10-px;
+  }
+
+  .MyPageFundingGaugeView {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 82px;
+    width: 100%;
+  }
+    
+  .gauagePercent {
+    color: #000000;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: right;
+    margin-right: 50px;
+  }
+
+  .gauageBar {
+    display: flex;
+    justify-content: space-between;
+    height: 32px;
+    width: 100%;
+  }
+
+  .goDetail {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+//   .group {
+//     background-color: gray;
+//     display: flex;
+//     flex-direction: column; 
+//     justify-content: flex-end;
+//     align-items: center; /* 위아래 중앙 정렬 */
+//     height: 100%; /* 부모 요소의 높이를 100%로 설정 */
+//     width: 30px;
+//   }
+
+// .polygon {
+//     width: 20px;
+//  }
+  
+
+  @media (max-width: 768px) {
+    .view, .group, .div, .group-2, .group-3 {
+      flex-direction: column;
+    }
+  }

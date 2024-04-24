@@ -1,0 +1,15 @@
+.week {
+  align-items: flex-start;
+  display: flex;
+  height: 32px;
+  position: relative;
+  width: 224px;
+}
+
+.week .design-component-instance-node {
+  align-self: stretch !important;
+  flex: 1 !important;
+  flex-grow: 1 !important;
+  height: unset !important;
+  width: unset !important;
+}

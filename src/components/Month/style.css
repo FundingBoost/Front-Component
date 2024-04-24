@@ -1,0 +1,26 @@
+.month {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0px;
+  position: relative;
+  width: 224px;
+}
+
+.month .icon-instance-node {
+  height: 16px !important;
+  position: relative !important;
+  width: 16px !important;
+}
+
+.month .text-wrapper {
+  color: #000000;
+  font-family: "Open Sans", Helvetica;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}

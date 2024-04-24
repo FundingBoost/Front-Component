@@ -1,0 +1,1 @@
+export { IconFieldCalendar } from "./IconFieldCalendar";

@@ -1,0 +1,95 @@
+.day {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 32px;
+  justify-content: center;
+  padding: 10px;
+  position: relative;
+  width: 32px;
+}
+
+.day .date {
+  font-family: "Open Sans", Helvetica;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  width: fit-content;
+}
+
+.day.selected {
+  background-color: #2f80ed;
+  border-radius: 8px;
+}
+
+.day.range-in-between {
+  background-color: #2f80ed1a;
+}
+
+.day.disabled {
+  background-color: #ffffff;
+}
+
+.day.hover {
+  background-color: #f1f1f1;
+  border-radius: 8px;
+}
+
+.day.default {
+  background-color: #ffffff;
+}
+
+.day.range-start {
+  background-color: #2f80ed99;
+  border-radius: 8px 0px 0px 8px;
+}
+
+.day.range-end {
+  background-color: #2f80ed;
+  border-radius: 0px 8px 8px 0px;
+}
+
+.day .state-selected {
+  color: #ffffff;
+}
+
+.day .state-range-in-between {
+  color: #2f80ed;
+}
+
+.day .state-disabled {
+  color: #aaaaaa;
+}
+
+.day .state-hover {
+  color: #333333;
+}
+
+.day .state-default {
+  color: #333333;
+}
+
+.day .type-weekday {
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: -2.5px;
+  margin-left: -2.5px;
+  margin-right: -2.5px;
+  margin-top: -4.5px;
+}
+
+.day .state-range-start {
+  color: #ffffff;
+}
+
+.day .type-day {
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: -2px;
+  margin-top: -4px;
+}
+
+.day .state-range-end {
+  color: #ffffff;
+}

@@ -1,0 +1,49 @@
+.calendar {
+  align-items: center;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #e1e1e1;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 250px;
+}
+
+.calendar .div-2 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 10px;
+  position: relative;
+}
+
+.calendar .design-component-instance-node-2 {
+  flex: 0 0 auto !important;
+  width: 230px !important;
+}
+
+.calendar .weekday-instance {
+  margin-left: -2.07px !important;
+  margin-right: -2.07px !important;
+}
+
+.calendar .weekday-2 {
+  margin-left: -4.57px !important;
+  margin-right: -4.57px !important;
+}
+
+.calendar .weekday-3 {
+  margin-left: -2.57px !important;
+  margin-right: -2.57px !important;
+}
+
+.calendar .design-component-instance-node-3 {
+  margin-left: -1.07px !important;
+  margin-right: -1.07px !important;
+}
+
+.calendar .week-instance {
+  width: 230px !important;
+}

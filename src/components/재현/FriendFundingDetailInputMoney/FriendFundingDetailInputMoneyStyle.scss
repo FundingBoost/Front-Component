@@ -1,0 +1,139 @@
+
+  .FriendFundingDetailMyProfile {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 364px;
+    width: 424px;
+  }
+
+  .textBox{
+    display: flex;
+    flex-direction: row;
+    width: 416px;
+    height: 52px;
+  }
+  
+  .buttonGroup{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .money {
+    background-color: #ffc83b;
+    border-radius: 10px;
+    height: 37px;
+    width: 89px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .moneyButton{
+    color: #FFFFFF;
+    font-size: 17px;
+    font-weight: 700;
+    text-align: center;
+    background-color: #ffc83b;
+    border: none;
+  }
+
+  .fundingInfo {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .dDayGroup {
+    display: flex;
+    justify-content: space-between;
+    width: 229px;
+    align-items: flex-end;
+  }
+
+  .dDay{
+    color: red;
+    font-size: 35px;
+    font-weight: 700;
+    text-align: end;
+  }
+
+  .deadLine{
+    color: gray;
+    font-size: 17;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .overlap-3 {
+    background-color: #ffc83b;
+    border-radius: 10px;
+    height: 37px;
+    width: 89px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  
+  .fundingToFriendText, .deadLine {
+    color: #000000;
+    font-size: 17px;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .fundingButton{
+    color: #000000;
+    font-size: 17px;
+    font-weight: 700;
+    text-align: center;
+    width: 310px;
+    background-color: #ffc83b;
+    border-radius: 10px;
+    border: none;
+  }
+  
+  .percent {
+    color: #000000;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: end;
+    height: 100%;
+  }
+
+  .rectangle-wrapper {
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 120px;
+    height: 32px;
+    width: 100%;
+  }
+  
+  .payButton {
+    display: flex;
+    flex-direction: row;
+    background-size: 100%;
+    justify-content: space-between;
+    height: 85px;
+    width: 100%;
+  }
+  
+  .free-icon-share {
+    object-fit: cover;
+    background-size: 100%;
+    border-radius: 10px;
+    height: 100%;
+    width: 89px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  @media (max-width: 768px) {
+    .view, .group, .overlap-wrapper, .overlap-group-wrapper, .div-wrapper, .group-2, .group-3, .group-5 {
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+  }

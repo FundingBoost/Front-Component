@@ -1,0 +1,52 @@
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 78px;
+    width: 176px;
+  }
+  
+  .view {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 78px;
+    width: 100%;
+  }
+  
+  .ellipse {
+    height: 73px;
+    object-fit: cover;
+    width: 73px;
+  }
+  
+  .text-wrapper {
+    color: #000000;
+    font-family: "Inter-Light", Helvetica;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 0;
+    line-height: normal;
+    text-align: right;
+    width: 92px;
+  }
+  
+  .div {
+    color: #000000;
+    font-family: "Roboto-Bold", Helvetica;
+    font-size: 25px;
+    font-weight: 700;
+    height: 9px;
+    letter-spacing: 0;
+    line-height: normal;
+    text-align: center;
+    white-space: nowrap;
+    width: 69px;
+  }
+  
+  @media (max-width: 768px) {
+    .view {
+      flex-direction: column;
+    }
+  }

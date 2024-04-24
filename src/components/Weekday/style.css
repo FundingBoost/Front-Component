@@ -1,0 +1,12 @@
+.weekday {
+  align-items: flex-start;
+  display: flex;
+  position: relative;
+  width: 224px;
+}
+
+.weekday .day-instance {
+  flex: 1 !important;
+  flex-grow: 1 !important;
+  width: unset !important;
+}

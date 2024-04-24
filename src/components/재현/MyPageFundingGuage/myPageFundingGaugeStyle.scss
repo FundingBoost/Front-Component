@@ -1,0 +1,49 @@
+.MyPageFundingGaugeBox {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 82px;
+    width: 716px;
+  }
+  
+  .MyPageFundingGaugeView {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 82px;
+    width: 100%;
+  }
+  
+  .wholeGauage {
+    color: #000000;
+    font-family: "Inter-Medium", Helvetica;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  
+  .gauageBar {
+    display: flex;
+    justify-content: space-between;
+    height: 32px;
+    width: 100%;
+  }
+  
+  .rectangle-wrapper {
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 120px;
+    height: 32px;
+    flex-grow: 1;
+  }
+  
+  .rectangle-30 {
+    width: 373px;
+  }
+  
+  .gauagePercent {
+    color: #000000;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: right;
+  }

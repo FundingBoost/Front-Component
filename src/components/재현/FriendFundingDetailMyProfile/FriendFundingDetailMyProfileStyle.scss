@@ -1,0 +1,117 @@
+ .MyPageFundingRecordItem {
+    display: flex;
+    flex-direction: column;
+    height: 294px;
+    width: 425px;
+  }
+  
+  .myProfileInfo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .myName{
+    margin-left: 10px;
+    color: #000000;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .fundingTag{
+    margin-left: 10px;
+    color: #9c9c9c;
+    font-size: 15px;
+    font-weight: 400;
+  }
+
+  .fundingMessageBackSpace {
+    background-color: #e5eeff;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 76px;
+    width: 100%;
+    margin-top: 20px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+
+  .fundingMessage {
+    color: #000000;
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  .fundingFriendsTitle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px 0 10px 0;
+  }
+
+  .paperAirplane{
+    width: 28px;
+    height: 28px;
+  }
+
+ .fundingFriends {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    background-color: #F5F5F5;
+    padding: 12px;
+    justify-content: space-between;
+  }
+  
+  .myProfileImage {
+    width: 100%;
+    object-fit: cover;
+    height: 64px;
+    width: 64px;
+    border-radius: 90px;
+    border: 1px solid #000000;
+  }
+  
+  .nextFriends  {
+    color: #000000;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    width: 29px;
+    height: 29px;
+    border-radius: 90px;
+  }
+
+  .fundingFriendsIntro{
+    color: #000000;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    margin-left: 5px;
+  }
+
+  .myName{
+    color: #000000;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  
+ .img{
+    height: 56px;
+    width: 56px;
+    border-radius: 90px;
+  }
+  
+//   @media (max-width: 768px) {
+//      .overlap, .overlap-2, .overlap-group, .group {
+//       flex-direction: row;
+//       flex-wrap: wrap;
+//     }
+//   }

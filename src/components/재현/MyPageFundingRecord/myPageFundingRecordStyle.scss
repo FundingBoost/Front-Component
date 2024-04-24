@@ -1,0 +1,57 @@
+.MyPageFundingRecord {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 754px;
+}
+
+.title{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.fundingRecordTitle{
+  font-size: 30px;
+  margin: 5px;
+}
+
+.detailed{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-block-start: 30px;
+}
+
+.detailedInquiry {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.detailedInquiryImg {
+  display: block;
+  // margin: auto;
+  width: 20px;
+}
+
+.horizontalLine {
+  border-bottom: 1px solid gray; /* 원하는 선의 스타일 및 색상으로 수정 가능 */
+  margin-bottom: 10px; /* 수평선 위아래 여백 설정 */
+  margin-top: 10px; /* 수평선 위아래 여백 설정 */
+  width: 754px;
+}   
+
+.fundingRecordItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+ 
+}
+
+@media (max-width: 768px) {
+  .box, .view, .overlap, .overlap-group, .overlap-group-2, .overlap-2, .overlap-3, .overlap-group-wrapper {
+    flex-direction: column;
+  }
+}

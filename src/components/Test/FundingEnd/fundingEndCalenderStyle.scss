@@ -1,0 +1,30 @@
+.calendar-default {
+    align-items: flex-start;
+    border: 2px solid;
+    border-color: #b5b5b5;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 283px;
+    position: relative;
+    width: 416px;
+  
+    .calendar-instance {
+      align-self: stretch !important;
+      height: 283px !important;
+      width: 100% !important;
+    }
+  
+    .calendar-3 {
+      margin-top: unset !important;
+    }
+  
+    .calendar-4 {
+      align-self: stretch !important;
+      flex: 1 !important;
+      flex-grow: 1 !important;
+      justify-content: center !important;
+      width: 100% !important;
+    }
+  }
+  
